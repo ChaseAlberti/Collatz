@@ -1,7 +1,7 @@
 #ifndef COLLATZ_COLLATZ_H
 #define COLLATZ_COLLATZ_H
 
-#include "collatz_options.h"
+#include "options.h"
 #include "stdint.h"
 #ifdef ENABLE_STEP_DEBUGGING
 #include "stdio.h"
@@ -18,7 +18,7 @@ typedef struct st_collatz {
 
 } collatz_t;
 
-void reset(collatz_t * p_collatz, const uint64_t start);
+void reset(collatz_t * p_collatz, uint64_t start);
 void collatz(collatz_t * p_collatz);
 
 

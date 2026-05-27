@@ -1,4 +1,4 @@
-#include "collatz_options.h"
+#include "options.h"
 #ifdef USE_SIMPLE_IMPLEMENTATION
 
 #include "collatz.h"
