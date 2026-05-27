@@ -41,7 +41,7 @@ void collatz(collatz_t * p_collatz) {
     if ( is_even( previous ) ) {
         next = previous >> 1;
     } else {
-        next = ( 3 * previous ) + 1;
+        next = ( ( 3 * previous ) + 1 ) >> 1;
     }
 
 #ifdef ENABLE_STATISTICS
